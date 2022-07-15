@@ -5,7 +5,7 @@
 }
 
 #main .carousel-inner img{
-    max-height: 80vh;
+    max-height: 100vh;
     object-fit: cover;
     filter:grayscale(80%)
 }
@@ -14,14 +14,16 @@
     position: relative; /*Para que se adapte a la pantalla*/
 }
 
-.overlay {
-    position:absolute; /* Para que se adapta al caruosel*/
+
+
+.overlay{
+    position: absolute;
     top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    background-color: rgba(0, 0, 0, 0.5);
-    
+    background-color: rgba(0, 23, 31, 0.205);
+    color: white;
 }
 
 #header{
@@ -41,19 +43,10 @@
 #footer{
     background-color: #003459;
     color: #FFFFFF;
+    font-family:Mongolian;
 }
 
-#carusel{
-    max-height: 80vh;
-    object-fit: cover;
-    filter: sepia(30%);
-    height: 400px;
-    width: 400px;
-    position: absolute;
-    left: 500px;
-    
 
-}
 
 #evento-marca{
     background-color:#00171F ;
@@ -63,10 +56,10 @@
 #evento-marca img{
     max-width: 100%;   
 }
-.strong{
+#strong{
     font-family:Roboto Slab;
 }
 #texto{
-    font-family:Roboto Slab;
+    font-family:Gentium Book Plus;
 }
 
