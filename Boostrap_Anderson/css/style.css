@@ -24,29 +24,22 @@
     
 }
 
-
-#text-llamado{
-    color: #FFD60A !important;
-    font-size: 18px;
-    font-weight: 900;
-}
-
 #header{
     background-color: #003459;
-    
+    height:90px ;
+       
 }
 #header a{
-    color: #FFFFFF;
+    color: #000000;
     font-family:Roboto Slab;
 }
-
 #logo{
     max-height: 80px;
     max-width: 80px;
 }
 
 #footer{
-    background-color: #00171F;
+    background-color: #003459;
     color: #FFFFFF;
 }
 
@@ -63,11 +56,17 @@
 }
 
 #evento-marca{
-    background-color: #00A8E8;
-    color: #00171F;
+    background-color:#00171F ;
+    color: #FFFFFF;
 }
 
 #evento-marca img{
-    max-width: 100%;
-    max-height:80% ;  
+    max-width: 100%;   
 }
+.strong{
+    font-family:Roboto Slab;
+}
+#texto{
+    font-family:Roboto Slab;
+}
+
